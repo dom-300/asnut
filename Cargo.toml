@@ -1,0 +1,19 @@
+[package]
+name = "asnut"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+ring = "0.16"
+rand = "0.8"
+rand_core = "0.6"
+arrayref = "0.3"
+hex = "0.4"
+rpassword = "7.3.1"
+getset = "0.1.5"
+getch = "0.3.1"
+secrecy = "0.10.3"
+walkdir = "2.5.0"
+num_cpus = "1.16.0"
+image = "0.25.6"
